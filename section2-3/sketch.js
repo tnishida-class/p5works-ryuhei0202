@@ -11,3 +11,33 @@ function setup(){
     }
   }
 }
+
+/* function setup(){
+  createCanvas(100, 100);
+  for(let i = 0; i < 10; i++){
+    for(let j = 0; j < 10; j++){
+      if(j % 2 == 1){
+        fill(252, 186, 3);
+      } else {
+        fill(0);
+      }
+      console.log(i, j);
+      rect(i * 10, j * 10, 5, 5);
+    }
+  }
+} */
+
+/* function setup(){
+  createCanvas(100, 100);
+  for(let i = 0; i < 10; i++){
+    for(let j = 0; j < 10; j++){
+      if(i % 2 == 1){
+        fill(252, 186, 3);
+      } else {
+        fill(0);
+      }
+      console.log(i, j);
+      rect(i * 10, j * 10, 5, 5);
+    }
+  }
+} */

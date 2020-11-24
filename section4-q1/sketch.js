@@ -12,9 +12,9 @@ function draw(){
   background(160, 192, 255);
   count = (count + 1) % cycle;
   if(count < 50) {
-    size = count;
+    size = count + 30;
   } else {
-    size = 100 - count;
+    size = 130 - count;
   }
   ellipse(width / 2, height / 2, size);
 }
